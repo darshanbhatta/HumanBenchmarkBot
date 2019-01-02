@@ -24,7 +24,7 @@ https://github.com/darshanbhatta/HumanBenchmarkBot.git
 
 ### Setup
 
-- Install Python 3.6.5 or greater
+- Install [Python 3.6.5 or greater](https://www.python.org/downloads/)
 - To use the Verbal Memory function of the bot you will need to install [tesseract](https://github.com/tesseract-ocr/tesseract/wiki) ([windows installer](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.02-20180621.exe))
 
 #### Dependencies Needed
