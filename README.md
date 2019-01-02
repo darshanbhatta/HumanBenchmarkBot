@@ -19,7 +19,7 @@
 ### Clone
 
 ```
-https://github.com/darshanbhatta/HumanBenchmarkBot.git
+git clone https://github.com/darshanbhatta/HumanBenchmarkBot.git
 ```
 
 ### Setup
