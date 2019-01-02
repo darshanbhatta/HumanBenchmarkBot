@@ -2,8 +2,6 @@ import pyautogui
 import time
 import webbrowser
 
-
-
 webbrowser.open('https://www.humanbenchmark.com/tests/number-memory', new=2)
 time.sleep(3) #time it takes for webbrowser to open, change this to match your pc
 
