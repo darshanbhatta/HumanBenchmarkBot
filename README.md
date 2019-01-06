@@ -1,6 +1,7 @@
 # Human Benchmark Bot
 
-> A bot for humanbenchmark.com that can play all the games works best on 1920 by 1080 screens. To use, simply run the python script to the corresponding game name
+> A bot for humanbenchmark.com that can play all the games works best on 1920 by 1080 screens with bookmarks turned off. To use, simply run the python script to the corresponding game name.
+
 
 ## Features
 
