@@ -19,6 +19,7 @@ if(hexColor=='0089ce'):
     x, y = pyautogui.locateCenterOnScreen('startnum.png')
     pyautogui.click(width, height+100)
     for w in range(lvls):
+        # very simple just copies and pastes the number to the next page
         pyautogui.click(x=width, y=height,clicks=3,interval=.25)
         pyautogui.hotkey('ctrl', 'c')
         hexColor=''
