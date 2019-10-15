@@ -28,9 +28,12 @@ hexColor = '%02x%02x%02x' % color
 print(hexColor)
 if(hexColor=='0089ce'):
     for num in range(lvls):
+        # takes picture of the word
         im1 = pyautogui.screenshot(region=(xSeen-280,ySeen-154, 690, 75))
+        # converts image of word into text
         word = pytesseract.image_to_string(im1)
     
+        # checks if word is in the list of stored words and acts accordingly
         if word not in allWords:
             allWords.append(word)
             pyautogui.click(xNew, yNew)
